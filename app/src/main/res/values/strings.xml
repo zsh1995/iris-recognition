@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">hongmo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<string name="set">重置</string>
+    <string name="save">保存</string>
+    <string name="memset">注册信息</string> 	
+    <string name="prov">姓名：</string> 
+    <string name="city">性别：</string> 	
+    <string name="county">年龄：</string> 
+    <string name="villiage">电话：</string> 
+    <string name="cun">村：</string> 
+    <string name="reporter">报送人：</string> 
+    <string name="phone">电话：</string>
+     
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent" android:layout_height="fill_parent"
+   android:orientation="vertical"
+   android:background="#FFFFFF"> 
+    <!-- 显示预览图形 -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <SurfaceView
+            android:id="@+id/CamerasurfaceView"
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:layout_gravity="center_horizontal" />
+        <com.example.myndk.CameraSurfaceView
+            android:id="@+id/backview"
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:layout_gravity="center_horizontal" />
+    </FrameLayout>
+
+  <LinearLayout android:id="@+id/layout10"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:orientation="horizontal" android:gravity="center" 
+		android:layout_marginTop="20dp">
+		<Button android:id="@+id/ensure"  android:layout_width="120.0dp"
+			android:layout_height="wrap_content" android:text="拍照"   android:onClick="btnOnclick" />
+		<Button android:id="@+id/choose" android:layout_width="120.0dp"
+			android:layout_height="wrap_content" android:text="选取图片"   android:onClick="btnOnclick" />
+	</LinearLayout>
+	       
+</LinearLayout>

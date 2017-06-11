@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent" android:layout_height="fill_parent"
+   android:orientation="vertical" android:background="#FFFFFF">
+   
+   <LinearLayout android:id="@+id/Linearlayout01"
+      android:background="@drawable/red"
+      android:layout_width="fill_parent" 
+      android:layout_height="80dp"
+      android:gravity="center_vertical" >
+      
+  
+      <TextView
+       
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="4"
+          android:layout_centerVertical="true"
+          android:gravity="center"
+		  style="@style/normalText2"
+          android:text="@string/memset"/>
+
+     
+          
+   </LinearLayout>
+   
+ 	<LinearLayout android:id="@+id/Elayout2"
+		android:layout_height="45dp" android:layout_width="fill_parent" 
+		android:gravity="center" android:background="#FFFFFF">
+		<TextView android:id="@+id/name" android:text="@string/prov" style="@style/normalText3"
+			android:layout_width="70.0dp" android:layout_height="wrap_content" android:layout_marginLeft= "25dp"/>
+		<EditText android:id="@+id/ename" android:layout_width="180.0dp" android:textSize="15.0sp"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+ <LinearLayout android:id="@+id/Elayout3" android:background="#FFFFFF"
+		android:layout_height="45dp" android:layout_width="fill_parent" 
+		android:gravity="center">
+		<TextView android:id="@+id/sex" android:text="@string/city" style="@style/normalText3"
+			android:layout_width="70.0dp" android:layout_height="wrap_content" android:layout_marginLeft= "25dp" />
+		<EditText android:id="@+id/esex" android:layout_width="180.0dp" android:textSize="15.0sp"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+	<LinearLayout android:id="@+id/Elayout4" android:background="#FFFFFF"
+		android:layout_height="45dp" android:layout_width="fill_parent" 
+		android:gravity="center">
+		<TextView android:id="@+id/age" android:text="@string/county" style="@style/normalText3"
+			android:layout_width="70.0dp" android:layout_height="wrap_content" android:layout_marginLeft= "25dp"/>
+		<EditText android:id="@+id/eage" android:layout_width="180.0dp" android:textSize="15.0sp"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+	<LinearLayout android:id="@+id/Elayout5" android:background="#FFFFFF"
+		android:layout_height="45dp" android:layout_width="fill_parent" 
+		android:gravity="center">
+		<TextView android:id="@+id/phone" android:text="@string/villiage" style="@style/normalText3"
+			android:layout_width="70.0dp" android:layout_height="wrap_content" android:layout_marginLeft= "25dp"/>
+		<EditText android:id="@+id/ephone" android:layout_width="180.0dp" android:textSize="15.0sp"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+	<LinearLayout android:id="@+id/layout9"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:orientation="horizontal" android:gravity="center" 
+		android:layout_marginTop="20dp">
+		<Button android:id="@+id/exact"  android:layout_width="120.0dp"  
+			android:layout_height="wrap_content" android:text="虹膜提取"   android:onClick="Onclick" />
+		<Button android:id="@+id/submit" android:layout_width="120.0dp"
+			android:layout_height="wrap_content" android:text="提交"   android:onClick="Onclick" />
+	</LinearLayout>
+	<ImageView 
+android:layout_width="40dp" 
+android:layout_height="40dp" 
+android:id ="@+id/appicon"
+android:layout_gravity="center"/> 
+	
+</LinearLayout>

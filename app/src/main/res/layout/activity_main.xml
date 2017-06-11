@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent" android:layout_height="fill_parent"
+   android:orientation="vertical"
+   android:background="#FFFFFF"> 
+    <!-- 显示预览图形 -->  
+    <ImageView   
+        android:id="@+id/surfaceView"  
+        android:layout_width="300dp"  
+        android:layout_height="300dp"  
+        android:layout_gravity="center"
+        android:src="@drawable/bg"
+        />  
+        
+  <LinearLayout android:id="@+id/layout9"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:orientation="horizontal" android:gravity="center" 
+		android:layout_marginTop="20dp">
+		<Button android:id="@+id/register"  android:layout_width="120.0dp"
+			android:layout_height="wrap_content" android:text="注册"   android:onClick="btnOnclick" />
+		<Button android:id="@+id/conf" android:layout_width="120.0dp"
+			android:layout_height="wrap_content" android:text="认证"   android:onClick="btnOnclick" />
+	</LinearLayout>
+ 	
+		<TextView android:id="@+id/eusername" android:layout_width="240.0dp" 
+			android:layout_height="40dp"  
+	        android:background="@drawable/round_editview"
+	        android:layout_gravity="center"
+	        android:layout_marginTop="10dp"
+	        android:textColor="@drawable/red"
+	        android:textSize="30sp"/>    
+       <Button  
+            android:id="@+id/quit"  
+            android:layout_width="240dp"  
+            android:layout_height="40dip" 
+            android:layout_gravity="center" 
+            android:text="退出" 
+            android:layout_marginTop="10dp"
+            
+             
+    />  
+</LinearLayout>
